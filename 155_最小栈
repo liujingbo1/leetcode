@@ -1,0 +1,28 @@
+class MinStack {
+    Deque<Integer> xStack;
+    Deque<Integer> minstack;
+
+    public MinStack() {
+        xStack = new LinkedList<Integer>();
+        minstack = new LinkedList<Integer>();
+        minstack.push(Integer.MAX_VALUE);
+    }
+
+    public void push(int x) {
+        xStack.push(x);
+        minstack.push(Math.min(minstack.peek(),x));
+    }
+
+    public void pop() {
+        xStack.pop();
+        minstack.pop();
+    }
+
+    public int top() {
+        return xStack.peek();
+    }
+
+    public int getMin() {
+        return minstack.peek();
+    }
+}
