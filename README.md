@@ -1,4 +1,2 @@
-# Hello git
-# first 
-#second
+＃leetcode   
 
