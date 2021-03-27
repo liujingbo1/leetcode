@@ -1,0 +1,13 @@
+class Solution {
+    public int trailingZeroes(int n) {
+        int countZeroes = 0;
+        for(int i = 5;i<=n;i+=5) {
+            int countFactor = i;
+            while(countFactor %5==0) {
+                countZeroes ++;
+                countFactor /=5;
+            }
+        }
+        return countZeroes;
+    }
+}
