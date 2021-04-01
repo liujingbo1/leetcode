@@ -1,0 +1,66 @@
+git version
+
+git config --global user.name  "jingboliu"
+
+git config --global user.email  "1010414475@qq.com"
+
+#查找配置内容
+cat ~/.gitconfig
+
+#到你要上传的本地目录 使用ll 或ls查看文件中的内容
+cd （具体地址直接电脑复制）
+
+#git初始化
+git init
+
+
+#跟踪状态 查看文件中的状态
+git status
+
+#暂存
+git add 文件名
+#全部暂存
+git add -A
+
+#提交并说明情况
+git commit -m “情况说明”
+
+#获取远端连接origin
+git remote add origin 网站地址
+git remote -v
+
+
+#上传即可
+git push origin master -u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#回到上一步
+..
+#清除
+cls
