@@ -1,0 +1,10 @@
+
+class Solution {
+    public void deleteNode(ListNode node) {
+        node.val = node.next.val;
+        node.next = node.next.next;
+    }
+}
+
+
+万万没想到是用这种方法，真的是，我还在想head为啥没有传进来呢。
