@@ -1,0 +1,18 @@
+
+class Solution {
+    public boolean canConstruct(String ransomNote,String magazine) {
+        char[] ran = ransomNote.toCharArray();
+        char[] mag = magazine.toCharArray();
+        int[] res = new int[26];
+        for(char c:mag) {
+            res[c - 'a'] ++;
+        }
+        for(char c:ran) {
+            res[c - 'a']--;
+            if(res[c - 'a'] <0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
