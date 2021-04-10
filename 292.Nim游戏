@@ -1,0 +1,8 @@
+class Solution {
+    public boolean canWinNim(int n) {
+        return (n % 4 != 0);
+    }
+}
+
+
+#不要成为4的倍数，否贼必输
