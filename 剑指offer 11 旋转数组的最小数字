@@ -1,0 +1,30 @@
+class Solution {
+    public int minArray(int[] numbers) {
+        int l=0, r= numbers.length-1,mid = 0;
+        while(numbers[l] >= numbers[r]) {
+            if(r-l ==1) {
+                mid = r;
+                break;
+            }
+            mid = (r-l)/2+l;
+            if(numbers[l] == numbers[r] && numbers[mid] == numbers[l]) {
+                return sort(numbers,l,r);
+            }
+            if(numbers[mid] >= numbers[l]) {
+                l = mid;
+            } else if(numbers[mid] <= numbers[r]) {
+                r = mid;
+            }
+        }
+        return numbers[mid];
+    }
+    public int sort(int[] numbers,int l,int r) {
+        int ans = numbers[l];
+        for(int i = l+1;i<=r;i++) {
+            if(ans>numbers[i]) {
+                ans = numbers[i];
+            }
+        }
+        return ans;
+    }
+}
