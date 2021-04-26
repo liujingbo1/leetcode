@@ -1,0 +1,15 @@
+class Solution {
+    public ListNode getKthFromEnd(ListNode head, int k) {
+        if(k<=0) return null;
+        ListNode first =head,second =head;
+        while(k>1) {
+            second = second.next;
+            k--;
+        }
+        while(second.next!=null) {
+            second = second.next;
+            first = first.next;
+        }
+        return first;
+    }
+}
