@@ -1,0 +1,21 @@
+class Solution {
+    public int[] exchange(int[] nums) {
+        int l =0,r = nums.length-1,len = nums.length;
+        while(l< r) {
+            while(nums[l] %2!=0 && l<=len-1) {
+                if(l==len-1) return nums;
+                l++;
+            }
+            while(nums[r] %2==0 && r>=0) {
+                if(r ==0) return nums;
+                r--;
+            }
+            if(l<r) {
+                int temp = nums[l];
+                nums[l] = nums[r];
+                nums[r] = temp;
+            }
+        }
+        return nums;
+    }
+}
