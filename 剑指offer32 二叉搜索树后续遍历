@@ -1,0 +1,15 @@
+class Solution {
+    public boolean verifyPostorder(int[] postorder) {
+        int r = postorder.length-1;
+        return dfs(postorder,0,r);
+    }
+
+    public boolean dfs(int[] nums,int l ,int r) {
+        if(l>=r) return true;
+        int temp = l;
+        while(nums[temp]<nums[r]) temp++;
+        int mid = temp;
+        while(nums[temp]>nums[r]) temp++;
+        return (temp==r) && dfs(nums,l,mid-1) && dfs(nums,mid,r-1);
+    }
+}
