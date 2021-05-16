@@ -14,3 +14,4 @@
 12 Springboot prefile测试生产和开发环境的配置，了解了日志的格式设置和输出设置
 13 Springboot 视图整合 freemarker
 14 Springboot 视图整合 thymeleaf 和静态资源
+15 Springboot 项目打包和部署
