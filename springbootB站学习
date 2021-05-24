@@ -18,7 +18,6 @@
 16 Springboot 第一天学习内容总结
 17 Springboot 第二天学习目标
 18 Mybaitis整合
-
 =============================
 19 springboot + mybatis1
 20 spritngboot+ mybatis2
@@ -31,5 +30,29 @@
 27 springboot事务支持和异常处理
 28 springboot全局异常处理
 29 springboot数据校验功能1
+30 springboot数据校验功能2
+31 完结：springboot总结
+
+
+
+https://www.bilibili.com/video/BV1Q64y1f7fX?p=1
+余胜军 springboot从入门到精通
+01 课程体系介绍
+02 为什么学习springboot框架
+03 springboot与springcloud的区别
+04 springboot依赖引入
+05 springboot启动方式01
+06 springboot启动方式02
+07 springboot启动方式03
+08 springboot整合静态资源
+09 springboot中yml和properties的区别
+10 什么是模板引擎框架
+11 springboot整合freemarker
+12 springboot整合freemarker中的if else应用
+13 springboot中使用thymeleaf渲染页面
+14 springboot中解决thymeleaf误报问题
+
+
+
 
 
