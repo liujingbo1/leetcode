@@ -56,6 +56,7 @@ https://www.bilibili.com/video/BV1Q64y1f7fX?p=1
 18 springboot整合mybatis插入操作
 19 springboot热部署框架devtools
 20 springboot整合lombok插件
+          @data不需要写getter和setter方法
 21 springboot中value读取配置文件
           bootstrap.yml系统参数
           Application.yml应用参数
@@ -66,6 +67,18 @@ https://www.bilibili.com/video/BV1Q64y1f7fX?p=1
           ${random.int(10)}
 25 整合多环境不同配置
 26 修改端口和上下文路径
+24 日志logback
+25 日志logback的配置
+   安装lombok插件，lombok依赖，xml文件配置logback，yml中配置xml文件
+26 整合log4j  
+          springbootstarter中去除自带的logging，（logback），然后引入log4j
+          在resources目录中配置log4j.properties
+          在application.yml中配置log4j的地址
+27 基于aop采集日志
+          引入aop依赖
+          定义切入点类
+          
+
 
 
 
