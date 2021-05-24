@@ -77,6 +77,19 @@ https://www.bilibili.com/video/BV1Q64y1f7fX?p=1
 27 基于aop采集日志
           引入aop依赖
           定义切入点类
+28 定时任务执行  
+          方法上加@scheduled（fixedRate = 3000）
+          引入类中加@EnableScheduling注解
+29  Quartz表达式
+          @scheduled（cron = ）
+          表达式通过 https://www.bejson.com/othertools/cron/转化
+30    如何整合异步线程
+          new Thread（new Runable（）{...}）.start();
+31   异步失效的情况 
+          @Async放在方法上
+          @EnableAsync放在引导类上
+          最好把开启新线程的方法单独抽取出来
+          写线程池类
           
 
 
