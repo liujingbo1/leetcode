@@ -90,18 +90,11 @@ https://www.bilibili.com/video/BV1Q64y1f7fX?p=1
           @EnableAsync放在引导类上
           最好把开启新线程的方法单独抽取出来
           写线程池类
-          
-
-
-
-
-
-
-
-
-
-
-
+32  全局异常处理
+          类上加载ControllerAdvice
+          具体的处理方法加上@ExceptionHandler（RunTimeException.class）
+          具体的处理方法加上@ResponseBody
+33 打包部署
 ========================
 1.消费观 让女生选餐厅和消费方式
 2.自我定位  引道女生说
@@ -155,11 +148,3 @@ https://www.bilibili.com/video/BV1Q64y1f7fX?p=1
 面对陌生的环境不怂
 面对生活中的困难不怕
 面对自己的缺陷不在乎
-
-
-
-
-
-
-
-
