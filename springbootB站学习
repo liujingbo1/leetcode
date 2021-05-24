@@ -57,18 +57,15 @@ https://www.bilibili.com/video/BV1Q64y1f7fX?p=1
 19 springboot热部署框架devtools
 20 springboot整合lombok插件
 21 springboot中value读取配置文件
-bootstrap.yml系统参数
-Application.yml应用参数
+          bootstrap.yml系统参数
+          Application.yml应用参数
 22 properties文件转yml文件
-依靠网站 www.toyaml.com/index.html
+          依靠网站 www.toyaml.com/index.html
 23 configurationproperties如何使用
 24 配置文件占位符
-
-
-
-
-
-
+          ${random.int(10)}
+25 整合多环境不同配置
+26 修改端口和上下文路径
 
 
 
