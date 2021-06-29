@@ -13,4 +13,8 @@ RabbitMQ.9 Web管理界面及授权操作
 RabbitMQ10 Docker安装RabbitMQ
 RabbitMQ11 角色分类
 RabbitMQ12 快速入门案例
-
+RabbitMQ13 AMQP讲解
+RabbitMQ14  RabbitMQ组件和框架
+RabbitMQ15 简单模式理解
+RabbitMQ16 Fanout模式=发布与订阅模式
+RabbitMQ17 Direct模式
