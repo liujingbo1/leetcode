@@ -25,3 +25,11 @@ SVN的学习
 https://www.bilibili.com/video/BV1mW411M7yR
 ===========================================
 01 提出问题
+02 subversion简介=SVN 
+checkout 剪出，每天开始之前update更新，commit提交
+03 服务器端程序安装 
+目录要求：非中文，不要空格
+04 创建版本库
+建立多级目录-终端到达需要创建版本库的位置采用svn create创建
+05 启动服务器
+
