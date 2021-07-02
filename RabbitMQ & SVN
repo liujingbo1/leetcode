@@ -17,7 +17,28 @@ RabbitMQ13 AMQP讲解
 RabbitMQ14  RabbitMQ组件和框架
 RabbitMQ15 简单模式理解
 RabbitMQ16 Fanout模式=发布与订阅模式
-RabbitMQ17 Direct模式
+RabbitMQ17 Direct模式理解
+RabbitMQ18 Topic模式理解
+RabbitMQ19 Headers模式理解
+RabbitMQ20 Fanout模式入门案例
+RabbitMQ21 Fanout模式入门案例
+RabbitMQ22 Topic模式入门案例
+RabbitMQ23 完整的声明创建方式
+RabbitMQ24 Work轮询模式讲解
+RabbitMQ25 Work公平分发讲解
+RabbitMQ26 MQ的使用场景
+RabbitMQ27 整合spring boot生产
+RabbitMQ28 整合springboot消费
+RabbitMQ29 整合springboot Direct模式
+RabbitMQ30 整合Springboot Topic模式
+RabbitMQ31 高级ttl消息过期
+RabbitMQ32 高级ttl消息过期
+RabbitMQ33 高级死信队列
+RabbitMQ34 内存磁盘的监控
+RabbitMQ35 集群的搭建
+RabbitMQ36 集群web界面的管理调试
+
+
 
 
 
@@ -32,4 +53,13 @@ checkout 剪出，每天开始之前update更新，commit提交
 04 创建版本库
 建立多级目录-终端到达需要创建版本库的位置采用svn create创建
 05 启动服务器
-
+06 命令行
+07 Eclipse插件安装
+08 Eclipse分享与检出
+09 更新提交
+10 仓库分析
+11 冲突
+12 权限
+13 时光机
+14 TortoiseSVN
+=============================================
